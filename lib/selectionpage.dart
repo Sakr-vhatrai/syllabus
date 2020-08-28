@@ -1,5 +1,8 @@
 import 'package:Bsc_syllabus/Components/CommonDrawer.dart';
+import 'package:Bsc_syllabus/OldQuesionPage.dart';
 import 'package:Bsc_syllabus/Syllabuspage.dart';
+import 'package:Bsc_syllabus/booklist.dart';
+import 'package:Bsc_syllabus/notelist.dart';
 import 'package:flutter/material.dart';
 
 import 'Components/customflatbutton.dart';
@@ -39,7 +42,7 @@ class Selectpage extends StatelessWidget {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SyllabusPage()));
+                                    builder: (context) => OldQuestionPage()));
                             
                           })),
                 ],
@@ -56,7 +59,7 @@ class Selectpage extends StatelessWidget {
                       Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SyllabusPage()));
+                                    builder: (context) => NoteList()));
                     },
                   )),
                   SizedBox(
@@ -69,7 +72,7 @@ class Selectpage extends StatelessWidget {
                       Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => SyllabusPage()));
+                                    builder: (context) => BookList()));
                     },
                   )),
                 ],
