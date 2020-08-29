@@ -1,0 +1,226 @@
+[
+    {
+        "faculty": "physics",
+        "id": 1,
+        "year": [
+            {
+                "title": "first year",
+                "subjects": [
+                    {
+                        "title": "Math",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Optics",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Quantum",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Second year",
+                "subjects": [
+                    {
+                        "title": "Math",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Optics",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Quantum",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "faculty": "Food Tech",
+        "id": 2,
+        "year": [
+            {
+                "title": "first year",
+                "subjects": [
+                    {
+                        "title": "Math",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Optics",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Quantum",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Second year",
+                "subjects": [
+                    {
+                        "title": "Math",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Optics",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    },
+                    {
+                        "title": "Quantum",
+                        "syllabus": "math syllabus",
+                        "old_questions": [
+                            "question1.ddd",
+                            "question2.ddd"
+                        ],
+                        "notes": [
+                            "notes1.pdf",
+                            "notes2.pdf"
+                        ],
+                        "books": [
+                            "books1.pdf",
+                            "books2.pdf"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
