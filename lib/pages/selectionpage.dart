@@ -1,11 +1,11 @@
 import 'package:Bsc_syllabus/Components/CommonDrawer.dart';
-import 'package:Bsc_syllabus/OldQuesionPage.dart';
-import 'package:Bsc_syllabus/Syllabuspage.dart';
-import 'package:Bsc_syllabus/booklist.dart';
-import 'package:Bsc_syllabus/notelist.dart';
+import 'package:Bsc_syllabus/pages/OldQuesionPage.dart';
+import 'package:Bsc_syllabus/pages/Syllabuspage.dart';
+import 'package:Bsc_syllabus/pages/booklist.dart';
+import 'package:Bsc_syllabus/pages/notelist.dart';
 import 'package:flutter/material.dart';
 
-import 'Components/customflatbutton.dart';
+import '../Components/customflatbutton.dart';
 
 class Selectpage extends StatelessWidget {
   final String title;

@@ -1,4 +1,4 @@
-import 'package:Bsc_syllabus/selectionpage.dart';
+import 'package:Bsc_syllabus/pages/selectionpage.dart';
 import 'package:flutter/material.dart';
 class ChooseContent extends StatelessWidget {
    final String title;

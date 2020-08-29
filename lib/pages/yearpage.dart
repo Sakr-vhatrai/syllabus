@@ -1,7 +1,7 @@
-import 'package:Bsc_syllabus/mainpage.dart';
+import 'package:Bsc_syllabus/pages/mainpage.dart';
 import 'package:flutter/material.dart';
 
-import 'Components/CommonDrawer.dart';
+import '../Components/CommonDrawer.dart';
 
 class YearDetail extends StatelessWidget {
   final String title;

@@ -1,7 +1,7 @@
-import 'package:Bsc_syllabus/yearpage.dart';
+import 'package:Bsc_syllabus/pages/yearpage.dart';
 import 'package:flutter/material.dart';
 
-import 'Components/CommonDrawer.dart';
+import '../Components/CommonDrawer.dart';
 
 class Homepage extends StatefulWidget {
   @override

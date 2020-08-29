@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../aboutus.dart';
+import '../pages/aboutus.dart';
 
 class CommonDrawer extends StatelessWidget {
   const CommonDrawer({
