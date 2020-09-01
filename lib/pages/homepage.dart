@@ -3,12 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../Components/CommonDrawer.dart';
 
-class Homepage extends StatefulWidget {
-  @override
-  _HomepageState createState() => _HomepageState();
-}
-
-class _HomepageState extends State<Homepage> {
+class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,13 +50,15 @@ class _HomepageState extends State<Homepage> {
                 MenuCard(
                   cardLabel: 'Physics',
                   cardImg: 'assets/images/atom.png',
+                  cardId: 1,
                 ),
                 SizedBox(
                   width: 10,
                 ),
                 MenuCard(
-                  cardLabel: 'Food Technology',
+                  cardLabel: 'Food Tech.',
                   cardImg: 'assets/images/atom.png',
+                  cardId: 2,
                 ),
               ],
             ),
@@ -73,55 +70,16 @@ class _HomepageState extends State<Homepage> {
                 MenuCard(
                   cardLabel: 'Micro Biology',
                   cardImg: 'assets/images/bond.png',
+                  cardId: 3,
                 ),
                 SizedBox(
                   width: 10,
                 ),
-                Expanded(
-                  child: InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) =>
-                                  YearDetail(title: 'Nutrition')));
-                    },
-                    child: Card(
-                      elevation: 0,
-                      shadowColor: Colors.blue,
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20)),
-                      color: Colors.blue.withOpacity(0.7),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Column(
-                          children: [
-                            Container(
-                                height: 50,
-                                width: 50,
-                                decoration: BoxDecoration(
-                                    // border:Border.all(
-                                    //   color: Colors.red,
-                                    //   width: 3
-                                    //)
-                                    ),
-                                child: Image(
-                                  image: AssetImage('assets/images/break.png'),
-                                )),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 10),
-                              child: Text(
-                                'Nutrition',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 20),
-                              ),
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                MenuCard(
+                  cardLabel: 'Nutrition',
+                  cardImg: 'assets/images/break.png',
+                  cardId: 4,
+                )
               ],
             ),
             Container(
@@ -138,11 +96,13 @@ class _HomepageState extends State<Homepage> {
 class MenuCard extends StatelessWidget {
   const MenuCard({
     Key key,
+    @required this.cardId,
     @required this.cardLabel,
     @required this.cardImg,
   }) : super(key: key);
   final String cardLabel;
   final String cardImg;
+  final int cardId;
 
   @override
   Widget build(BuildContext context) {
@@ -152,7 +112,7 @@ class MenuCard extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => YearDetail(title: cardLabel),
+              builder: (context) => YearDetail(id: cardId),
             ),
           );
         },
